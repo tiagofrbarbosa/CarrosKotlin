@@ -1,9 +1,10 @@
-package br.com.livroandroid.carros
+package br.com.livroandroid.carros.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import br.com.livroandroid.carros.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
